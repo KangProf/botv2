@@ -1,6 +1,6 @@
 /*
-Hallo iam Ramlan:)
-SC By : RAMLAN GANS
+Hallo masa depan:)
+SC By : PROF-ACC
 */
 //YANG ATAS JANGAN DI UBAH UM:)
 const {
@@ -30,10 +30,10 @@ const welkom = JSON.parse(fs.readFileSync('./R4ML4N/welkom.json'))
 const nsfw = JSON.parse(fs.readFileSync('./R4ML4N/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./R4ML4N/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // OM JANGAN DI UBAH OM
-            + 'VERSION:3.0\n' // INI WEEM RAMLAN GANS
-            + 'FN:RamlanGans\n' // UBAH INI
+            + 'VERSION:3.0\n' // INI WEEM PROF-ACC
+            + 'FN:Prof-acc\n' // UBAH INI
             + 'ORG:Owner BOT;\n' // UBAH INI
-            + 'TEL;type=CELL;type=VOICE;waid=6285559240360:+62 855-5924-0360\n' // UBAH INI
+            + 'TEL;type=CELL;type=VOICE;waid=6281326977165:+62 8132-6977-165\n' // UBAH INI
             + 'END:VCARD' // WEEM DIHAPUS GUE BERHENTI UPDATE SCRIPT
 prefix = '!'
 blocked = []
@@ -153,8 +153,8 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6285559240360@s.whatsapp.net"] // Ganti pake nomor lu
-			const ramlanNumber = ["6285559240360@s.whatsapp.net"] // JANGAN DI UBAH NGENTOD
+			const ownerNumber = ["6281326977165@s.whatsapp.net"] // Ganti pake nomor lu
+			const ramlanNumber = ["6281326977165@s.whatsapp.net"] // JANGAN DI UBAH NGENTOD
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -466,7 +466,7 @@ async function starts() {
 					break
 				case 'bc':
 					if (!isOwner) return reply('Kamu siapa?')
-					if (!isRamlan) return reply('Kamu Ramlan?')
+					if (!isRamlan) return reply('Kamu Profesor?')
 					if (args.length < 1) return reply('.......')
 					anu = await client.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {

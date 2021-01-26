@@ -1,5 +1,5 @@
 {
-  "name": "Sadbotz",
+  "name": "Profbot",
   "version": "0.0.2",
   "description": "No comment",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "RAMLAN",
+  "author": "PROF",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
@@ -40,10 +40,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ramlan666/sadbotv2.git"
+    "url": "git+https://github.com/KangProf/botv2.git"
   },
   "bugs": {
-    "url": "https://github.com/Ramlan666/sadbotv2/issues"
+    "url": "https://github.com/KangProf/botv2/issues"
   },
-  "homepage": "https://github.com/Ramlan666/sadbotv2#readme"
+  "homepage": "https://github.com/KangProf/botv2#readme"
 }
